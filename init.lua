@@ -1,5 +1,11 @@
+-- Settings
+vim.opt.termguicolors = true
+vim.opt.showmode = false
+vim.opt.title = true
+
 vim.g.mapleader = " "
 
+-- Rest
 require("knvi")
 
 require("lazy").setup("plugins", {
